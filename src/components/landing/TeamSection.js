@@ -28,11 +28,11 @@ export default function TeamSection() {
                         name="Alexa Smith"
                         position="UI/UX Designer"
                     />
-                    {/* <TeamCard
+                    <TeamCard
                         img={Image4}
                         name="Jenna Kardi"
                         position="Founder and CEO"
-                    /> */}
+                    />
                 </div>
             </div>
         </section>
