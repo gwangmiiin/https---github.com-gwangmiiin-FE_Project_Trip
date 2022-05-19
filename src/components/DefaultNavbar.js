@@ -37,10 +37,7 @@ export default function DefaultNavbar() {
                     <Nav>
                         <div className="flex flex-col z-50 lg:flex-row lg:items-center">
                             <div className="text-white">
-                                <Dropdown
-                                    color="transparent"
-                                    size="sm"
-                                    buttonType="link"
+                                <Dropdown color="transparent" size="sm" buttonType="link"
                                     buttonText={
                                         <div className="py-2.5 font-medium flex items-center">
                                             <Icon
@@ -70,7 +67,7 @@ export default function DefaultNavbar() {
                                             먹거리
                                         </DropdownItem>
                                     </Link>
-                                    <Link to="/register">
+                                    <Link to="/profile_play">
                                         <DropdownItem color="lightBlue">
                                             놀거리
                                         </DropdownItem>

@@ -2,8 +2,8 @@ import Title from 'components/landing/Title';
 import TeamCard from 'components/landing/TeamCard';
 import Image1 from 'assets/img/bukchon.jpg';
 import Image2 from 'assets/img/seoul-museum-of-history.jpg';
-import Image3 from 'assets/img/inwang.jpg';
-import Image4 from 'assets/img/team-4-470x470.png';
+import Image3 from 'assets/img/street.jpg';
+import Image4 from 'assets/img/pexels-ethan-brooke-2376710.jpg';
 
 export default function TeamSection() {
     return (
@@ -15,23 +15,23 @@ export default function TeamSection() {
                 <div className="flex flex-wrap">
                     <TeamCard
                         img={Image1}
-                        name="한옥 문화강좌"
-                        position="21일(토)부터 6월 25일(토)까지 매주 토요일(14:00~ 16:00)"
+                        name="/////"
+                        position="/////"
                     />
                     <TeamCard
                         img={Image2}
-                        name="서울역사박물관"
-                        position="4월 28일(목)부터 7월 10일(일)까지"
+                        name="/////"
+                        position="/////"
                     />
                     <TeamCard
                         img={Image3}
-                        name="Alexa Smith"
-                        position="UI/UX Designer"
+                        name="/////"
+                        position="////"
                     />
                     <TeamCard
                         img={Image4}
-                        name="Jenna Kardi"
-                        position="Founder and CEO"
+                        name="////"
+                        position="////"
                     />
                 </div>
             </div>

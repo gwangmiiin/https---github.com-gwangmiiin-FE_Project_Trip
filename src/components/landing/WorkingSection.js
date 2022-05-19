@@ -49,12 +49,6 @@ export default function WorkingSection() {
                         <LeadText color="blueGray">
                             서울에 처음 오는 사람 또는 외국인 이라도 위의 사이트를 보고 편하게 여행이 가능하게 
                         </LeadText>
-                        {/* <a
-                            href="#pablo"
-                            className="font-medium text-light-blue-500 mt-2 inline-block"
-                        >
-                            Read More
-                        </a> */}
                     </div>
 
                     <div className="w-full md:w-4/12 px-4 mx-auto flex justify-center mt-24 lg:mt-0">
