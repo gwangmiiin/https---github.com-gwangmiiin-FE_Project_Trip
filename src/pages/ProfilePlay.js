@@ -1,10 +1,11 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
-import Content from 'components/profile/Content';
-import Content2 from 'components/profile/Content2';
+import ContentPlay from 'components/profile_play/ContentPlay';
+import ContentPlay2 from 'components/profile_play/ContentPlay2';
 
-export default function Profile() {
+
+export default function ProfilePlay() {
     return (
         <>
             <div className="absolute w-full z-20">
@@ -12,10 +13,9 @@ export default function Profile() {
             </div>
             <main>
                 <Header />
-                <Content />
+                <ContentPlay2 />
                 <Header />
-                <Content2 />
-                <Header />
+                <ContentPlay />
             </main>
             <DefaultFooter />
         </>

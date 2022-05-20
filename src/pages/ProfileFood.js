@@ -1,10 +1,10 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
-import Content from 'components/profile/Content';
-import Content2 from 'components/profile/Content2';
+import ContentFood from 'components/profile_food/ContentFood';
 
-export default function Profile() {
+
+export default function ProfileFood() {
     return (
         <>
             <div className="absolute w-full z-20">
@@ -12,10 +12,7 @@ export default function Profile() {
             </div>
             <main>
                 <Header />
-                <Content />
-                <Header />
-                <Content2 />
-                <Header />
+                <ContentFood />
             </main>
             <DefaultFooter />
         </>
