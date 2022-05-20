@@ -61,12 +61,12 @@ export default function DefaultNavbar() {
                                             볼거리
                                         </DropdownItem>
                                     </Link>
-                                    <Link to="/profile_food">
+                                    <Link to="/profileFood">
                                         <DropdownItem color="lightBlue">
                                             먹거리
                                         </DropdownItem>
                                     </Link>
-                                    <Link to="/profile_play">
+                                    <Link to="/profilePlay">
                                         <DropdownItem color="lightBlue">
                                             놀거리
                                         </DropdownItem>
@@ -89,7 +89,7 @@ export default function DefaultNavbar() {
                                     }
                                     ripple="light"
                                 >
-                                    <Link to="/profile">
+                                    <Link to="/">
                                         <DropdownItem color="lightBlue">
                                             이달의 추천코스
                                         </DropdownItem>
