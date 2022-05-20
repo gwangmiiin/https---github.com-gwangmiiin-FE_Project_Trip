@@ -36,15 +36,15 @@ export default function ContentFood2() {
                             <H3 color="gray">음식2</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                ////
+                                ---
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
                                 <Icon name="work" size="xl" />
-                               ////
+                               ----
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
                                 <Icon name="account_balance" size="xl" />
-                                //////
+                                ---
                             </div>
                         </div>
 
@@ -52,7 +52,7 @@ export default function ContentFood2() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                       //////
+                                       ----
                                     </LeadText>
                                     <a
                                         href="#pablo"
