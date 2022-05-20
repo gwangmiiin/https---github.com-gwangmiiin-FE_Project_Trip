@@ -47,7 +47,7 @@ export default function ContentFood() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                       -----------------------
+                                      설명
                                     </LeadText>
                                     <a
                                         href="#pablo"

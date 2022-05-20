@@ -3,6 +3,8 @@ import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
 import Content from 'components/profile/Content';
 import Content2 from 'components/profile/Content2';
+import HeaderTop from 'components/profile/HeaderTop';
+import HeaderName from 'components/profile/HeaderName';
 
 export default function Profile() {
     return (
@@ -11,7 +13,8 @@ export default function Profile() {
                 <DefaultNavbar />
             </div>
             <main>
-                <Header />
+                <HeaderTop />
+                <HeaderName />
                 <Content />
                 <Header />
                 <Content2 />
