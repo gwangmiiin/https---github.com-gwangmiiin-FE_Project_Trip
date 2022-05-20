@@ -25,8 +25,8 @@ export default function DefaultNavbar() {
                         rel="noreferrer"
                     >
                         <Link to="/">
-                            <DropdownItem color="lightBlue">
-                                홈
+                            <DropdownItem>
+                                <p style={{color : 'white'}}>RECO SEOUL</p>
                             </DropdownItem>
                         </Link>
                     </a>
@@ -73,6 +73,7 @@ export default function DefaultNavbar() {
                                     </Link>
                                 </Dropdown>
                             </div>
+
                             <div className="text-white">
                                 <Dropdown color="transparent" size="sm" buttonType="link"
                                     buttonText={
@@ -89,7 +90,7 @@ export default function DefaultNavbar() {
                                     }
                                     ripple="light"
                                 >
-                                    <Link to="/">
+                                    <Link to="/recoCourse">
                                         <DropdownItem color="lightBlue">
                                             이달의 추천코스
                                         </DropdownItem>
