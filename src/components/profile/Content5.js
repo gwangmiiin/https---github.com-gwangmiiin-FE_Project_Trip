@@ -3,10 +3,10 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
-import {Link} from 'react-router-dom'
+import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
+import {Link} from 'react-router-dom';
 
-export default function ContentFood() {
+export default function Content5() {
     return (
         <>
         <section className="relative py-16 bg-gray-100">
@@ -26,16 +26,26 @@ export default function ContentFood() {
                                     </div>
                                 </div>
                             </div>
+                            {/* <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:self-center flex justify-center mt-10 lg:justify-end lg:mt-0">
+                                <Button color="lightBlue" ripple="light">
+                                    Conntect
+                                </Button>
+                            </div> */}
                         </div>
 
                         <div className="text-center my-8">
-                            <H3 color="gray">통인시장</H3>
+                            <H3 color="gray">한성백제박물관</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                서울 종로구 자하문로15길 18  
+                                서울 송파구 위례성대로 71 (방이동, 한성백제박물관) 
+                            </div>
+                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
+                        
+                                8호선 몽촌토성 1번 출구→우측(남2문)방면으로 650m 이동
+
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                            3호선 경복궁역 2번 출구 → 2번 출구와 3번 출구 사이 도로를 따라 직진
+                            5호선(마천방면) 올림픽공원 3번 출구→남2문 방면으로 1km 이동
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
                                 <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
@@ -46,7 +56,7 @@ export default function ContentFood() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                      설명
+                                        설명
                                     </LeadText>
                                     <a
                                         href="#pablo"

@@ -3,10 +3,10 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
-import {Link} from 'react-router-dom'
+import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
+import {Link} from 'react-router-dom';
 
-export default function ContentFood() {
+export default function Content4() {
     return (
         <>
         <section className="relative py-16 bg-gray-100">
@@ -26,27 +26,45 @@ export default function ContentFood() {
                                     </div>
                                 </div>
                             </div>
+                            {/* <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:self-center flex justify-center mt-10 lg:justify-end lg:mt-0">
+                                <Button color="lightBlue" ripple="light">
+                                    Conntect
+                                </Button>
+                            </div> */}
                         </div>
 
                         <div className="text-center my-8">
-                            <H3 color="gray">통인시장</H3>
+                            <H3 color="gray">롯데월드타워</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                서울 종로구 자하문로15길 18  
-                            </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                            3호선 경복궁역 2번 출구 → 2번 출구와 3번 출구 사이 도로를 따라 직진
+                                서울 송파구 올림픽로 300 (신천동)   
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
-                             </div>
+                                2호선 잠실역 2번 출구 도보 5분
+                                </div>
+                                
+                    <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
+                    8호선 잠실역 11번 출구 도보 5분
+                    </div>
+                    <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
+                        <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
+                     </div>
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                      설명
+                                    글로벌 상징성과 한국의 전통미, 인간과 기술, 첨단과 자연이 공존하는 롯데월드타워는 하나의 건축물에 도시생활의 모든 것을 구현한 수직도시이다. 
+
+                                    </LeadText>
+                                    <LeadText color="blueGray">
+                                    555m, 123층의 거대한 수직도시 롯데월드타워에는 국내 최고 높이(500m) 전망대인 서울스카이(SEOUL SKY), 국내 최고 수준의 호텔 시그니엘서울(SIGNIEL SEOUL), 프리미엄 헬스케어센터와 피트니스센터, 파이낸스센터가 입점한 포디엄이(PODIUM) 위치하여 그 높이만큼 특별한 가치를 경험할 수 있다.
+
+                                    </LeadText>
+                                    <LeadText color="blueGray">
+                                    또한 글로벌 패션 허브 롯데월드몰에는 국내 최대 규모의 시내 면세점인 롯데면세점, 대한민국 최고, 최대의 명품 백화점 에비뉴엘, 국내 최대 도심형 수족관 롯데월드 아쿠아리움, 국내 최초 빈야드 스타일 클래식 전용 홀인 롯데콘서트홀과 아시아 최대 규모의 멀티플렉스 롯데시네마 등이 자리하여 첨단 라이프스타일과 놀랍고 차별화된 경험을 할 수 있다.
+
                                     </LeadText>
                                     <a
                                         href="#pablo"

@@ -3,10 +3,10 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
-import {Link} from 'react-router-dom'
+import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
+import {Link} from 'react-router-dom';
 
-export default function ContentFood() {
+export default function Content7() {
     return (
         <>
         <section className="relative py-16 bg-gray-100">
@@ -26,27 +26,38 @@ export default function ContentFood() {
                                     </div>
                                 </div>
                             </div>
+                            {/* <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:self-center flex justify-center mt-10 lg:justify-end lg:mt-0">
+                                <Button color="lightBlue" ripple="light">
+                                    Conntect
+                                </Button>
+                            </div> */}
                         </div>
 
                         <div className="text-center my-8">
-                            <H3 color="gray">통인시장</H3>
+                            <H3 color="gray">전쟁기념관</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                서울 종로구 자하문로15길 18  
+                                서울 용산구 이태원로 29 (용산동1가, 전쟁기념관)  
+                            </div>
+                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
+                            6호선 삼각지역 11번, 12번 출구 (도보 3분)
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                            3호선 경복궁역 2번 출구 → 2번 출구와 3번 출구 사이 도로를 따라 직진
+                            4호선 삼각지역 1번 출구 (도보 5분)
                             </div>
+                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
+                            1호선 남영역 1번 출구 (도보 10분)
+                            </div>
+
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
                                 <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
                              </div>
                         </div>
-
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                      설명
+                                        설명
                                     </LeadText>
                                     <a
                                         href="#pablo"

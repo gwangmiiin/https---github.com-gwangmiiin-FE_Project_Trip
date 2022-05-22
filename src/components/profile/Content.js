@@ -4,6 +4,7 @@ import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
 import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
+import {Link} from 'react-router-dom'
 
 export default function Content() {
     return (
@@ -35,11 +36,11 @@ export default function Content() {
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
                                 <Icon name="work" size="xl" />
-                                지하철 - 3호선 경복궁역 5번출구 도보 5분, 5호선 광화문역 2번출구 도보 약 10분
+                                3호선 경복궁역 4번출구, 5호선 광화문역 2번출구
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
                                 <Icon name="account_balance" size="xl" />
-                                버스 - 경복궁 남측 : 109, 171, 272, 601, 606, 1020, 7025, 경복궁 서측 : 1020, 1711, 7016, 7018, 7022, 7212, 6011, 9703
+                                <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
                             </div>
                         </div>
 
@@ -47,10 +48,14 @@ export default function Content() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                       경복궁은 대한민국 서울특별시 청와대로에 있는 조선 왕조의 법궁이다. 
-                                       태조 4년인 1395년 창건되어 1592년 임진왜란으로 전소되었고, 1868년 흥선대원군의 주도로 중건되었다. 
-                                       일제 강점기에 훼손되어 현재 복원사업이 진행중이다. 
-                                       《주례》 〈고공기〉에 입각하여 건축되었다
+                                    경복궁은 조선 시대에 지어진 왕궁 중 가장 큰 궁궐이었다. 조선 왕조 개국 3년인 1395년에 완공된 궁궐은 390여 칸으로 한양의 중심축에 자리했다. 개국공신 정도전은 태조로부터 첫 번째 궁궐의 이름을 지으라는 명을 받았고, 고심 끝에 '새 왕조가 큰 복을 누려 번영할 것'이라는 의미로 경복궁(景福宮)이라는 이름을 붙였다. 경복궁은 5대궁인 경희궁, 덕수궁, 창경궁, 창덕궁 중 가장 큰 궁궐로 조선 왕조의 주요 궁궐 역할을 했다.
+                                      
+                                    </LeadText>
+                                    <LeadText color="blueGray">
+                                    국보 제223호인 근정전(勤政殿)은 경복궁의 법전으로 각종 즉위식을 거행했던 왕실의 행사장이었다. 근정전의 옆에 위치한 경회루는 1만원권 구화폐 실릴 만큼 대표적인 건축물로 사랑받아 왔다. 한국은 미래 세대를 위해 궁궐의 재건, 복원, 유지를 위해 많은 시간과 노력을 투자해 왔다. 이외에도 일제강점기에 훼손을 겪었다가 2010년에 완전히 복원된 광화문, 고종과 명성황후가 머물던 건천궁, 경복궁의 후원인 향원정 등이 자리하고 있다. 경복궁을 방문할 때 국립 고궁 박물관과 국립 민속 박물관 또한 함께 방문하기 좋다.
+                                    </LeadText>
+                                    <LeadText color="blueGray">
+                                    경복궁은 조선 왕조 최고의 궁궐인 만큼 생각보다 넓다. 동선은 자유롭게 조정할 수 있다. 다만 좀 더 자세한 관람을 원한다면 우리궁궐지킴이 해설사들의 설명과 함께하는 것이 가장 좋다.   
                                     </LeadText>
                                     <a
                                         href="#pablo"
