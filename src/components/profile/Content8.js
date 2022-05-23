@@ -51,7 +51,7 @@ export default function Content8() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                        설명
+                                        미술관 속 작은 정원 : MUSEUM 2의 지하에는 비밀의 화원이 있다. 전시장 유리창 밖으로 보이는 선큰 가든(Sunken Garden)과 개비온 월(Gabion Wall)이다. 개비온 월은 벽면 기초 공사 때 나온 암반석을 쪼개 철제 프레임에 담아 쌓아 올린 작품이다. 예술과 건축 그리고 숨 쉬는 자연, 삼박자를 고루 갖추고 있다.
                                     </LeadText>
                                     <a
                                         href="#pablo"
