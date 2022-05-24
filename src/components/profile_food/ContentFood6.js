@@ -29,13 +29,13 @@ export default function ContentFood6() {
                         </div>
 
                         <div className="text-center my-8">
-                            <H3 color="gray"> 음식점 </H3>
+                            <H3 color="gray"> 시화담 </H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                장소 
+                                서울 용산구 이태원로 254 (한남동)   
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                                교통
+                                6호선 이태원역 2번 출구
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
                                 <Link to ="http://www.royalpalace.go.kr">웹 사이트로 보기</Link>
@@ -46,7 +46,7 @@ export default function ContentFood6() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                 <LeadText color="blueGray">
-                                한옥 기와 모양의 1, 2층 한정식집. 이천 쌀로 지은 돌솥밥과 간장게장, 생선모둠구이, 부침개, 보쌈, 잡채 등 20여 가지 반찬이 한상 가득 나온다. 1층은 입식, 2층은 좌식으로 되어 있으며 이천 쌀과 김은 판매도 가능하다.
+                                아주 고급스러운 분위기의 한식당. 한식의 세계화를 위해 10년을 준비하여 오픈한 곳이다. 음식 하나하나에 정성을 쏟아부어 맛과 건강은 물론이고 하나의 예술작품을 보는 듯한 음식의 아름다움까지 추구한다. 2층의 룸에서는 국악공연을 즐기며 식사를 할 수 있다. 가격은 일반인이 가기에는 부담스러운 편. 반드시 이틀 전에는 예약을 하고 가야 한다.
                                 </LeadText>
                                     <a
                                         href="#pablo"

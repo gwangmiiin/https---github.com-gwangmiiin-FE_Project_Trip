@@ -4,6 +4,7 @@ import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
 import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
+import {Link} from 'react-router-dom';
 
 export default function ContentPlay2() {
     return (
@@ -33,26 +34,25 @@ export default function ContentPlay2() {
                         </div>
 
                         <div className="text-center my-8">
-                            <H3 color="gray">놀거리</H3>
+                            <H3 color="gray">온고푸드커뮤니케이션</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Icon name="work" size="xl" />
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                서울 종로구 삼일대로30길 12 (낙원동, 서울조리전문학교)  3층   
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                                <Icon name="account_balance" size="xl" />
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                1,3,5호선 종로3가역 5번 출구
                             </div>
+                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
+                                <Link to ="http://www.royalpalace.go.kr">웹 사이트로 보기</Link>
+                             </div>
                         </div>
+
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    온고푸드커뮤니케이션은 식문화와 관광을 결합하여 한식을 통해 한국의 문화를 체험하게끔 하고 있다. 외국인을 상대로 하루에 두 번 한식 요리 교실을 진행 중이다. 인사동과 낙원동, 종로 일대의 맛집들과 전통시장을 도보로 탐방하는 프로그램도 진행하고 있다.
                                     </LeadText>
                                     <a
                                         href="#pablo"

@@ -46,7 +46,10 @@ export default function ContentFood() {
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                      설명
+                                    세종마을은 추사 김정희 등 조선시대 예능인들이 모이는 중심지였으며 근대에도 이상 등 문인들이 활동하던 중심지였다. 일제강점기 일본인들을 위해 만들어진 공설시장이 모태이나 6.25이후 인구증가로 시장의 필요성이 높아져 현재처럼 물건을 사고파는 시장의 형태를 갖추게 되었다. 
+                                    </LeadText>
+                                    <LeadText color="blueGray">
+                                    통인시장은 상권이 활성화된 곳으로 다른 전통시장의 벤치마킹 사례로 유명하며 특히 통인시장에서 자체 제작한 엽전은 통인시장만의 즐길 거리다. 엽전으로 환전함과 동시에 검은색 플라스틱 식판도 받게 되는데 이때부터 식판을 들고 다니면서 시장 곳곳을 다니며 음식을 먹을 수 있다. 단, 엽전은 가맹점에서만 사용 가능하다. 
                                     </LeadText>
                                     <a
                                         href="#pablo"
