@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
-import {Link} from 'react-router-dom'
+import ProfilePicture from 'assets/img/산들해.png';
 
 export default function ContentFood4() {
     return (
@@ -35,11 +34,10 @@ export default function ContentFood4() {
                                 서울 송파구 위례성대로 6 (방이동, 현대토픽스)  
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
+                            <Icon name="keyboard_arrow_right" size="xl" />
                                 5호선 방이 1번 출구
                             </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr">웹 사이트로 보기</Link>
-                             </div>
+                           
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -48,16 +46,18 @@ export default function ContentFood4() {
                                 <LeadText color="blueGray">
                                 한옥 기와 모양의 1, 2층 한정식집. 이천 쌀로 지은 돌솥밥과 간장게장, 생선모둠구이, 부침개, 보쌈, 잡채 등 20여 가지 반찬이 한상 가득 나온다. 1층은 입식, 2층은 좌식으로 되어 있으며 이천 쌀과 김은 판매도 가능하다.
                                 </LeadText>
-                                    <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                <a
+                                    
+                                    href="https://map.naver.com/v5/entry/place/19769266?c=14149709.8788189,4511405.2751483,15,0,0,0,dh"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        상세보기
                                         </Button>
                                     </a>
                                 </div>

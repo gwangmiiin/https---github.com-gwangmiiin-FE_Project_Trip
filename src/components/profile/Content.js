@@ -4,7 +4,6 @@ import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
 import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
-import {Link} from 'react-router-dom'
 
 export default function Content() {
     return (
@@ -35,13 +34,10 @@ export default function Content() {
                                 서울특별시 종로구 사직로 161
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Icon name="work" size="xl" />
-                                3호선 경복궁역 4번출구, 5호선 광화문역 2번출구
+                            <Icon name="keyboard_arrow_right" size="xl" />
+                                3호선 경복궁역 4번출구 / 5호선 광화문역 2번출구
                             </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                                <Icon name="account_balance" size="xl" />
-                                <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
-                            </div>
+                            
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -58,15 +54,17 @@ export default function Content() {
                                     경복궁은 조선 왕조 최고의 궁궐인 만큼 생각보다 넓다. 동선은 자유롭게 조정할 수 있다. 다만 좀 더 자세한 관람을 원한다면 우리궁궐지킴이 해설사들의 설명과 함께하는 것이 가장 좋다.   
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="http://www.royalpalace.go.kr"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>

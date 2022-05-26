@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
-import {Link} from 'react-router-dom';
+import ProfilePicture from 'assets/img/온고푸드.png';
 
 export default function ContentPlay2() {
     return (
@@ -40,11 +39,10 @@ export default function ContentPlay2() {
                                 서울 종로구 삼일대로30길 12 (낙원동, 서울조리전문학교)  3층   
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
+                            <Icon name="keyboard_arrow_right" size="xl" />
                                 1,3,5호선 종로3가역 5번 출구
                             </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr">웹 사이트로 보기</Link>
-                             </div>
+                           
                         </div>
 
 
@@ -55,15 +53,17 @@ export default function ContentPlay2() {
                                     온고푸드커뮤니케이션은 식문화와 관광을 결합하여 한식을 통해 한국의 문화를 체험하게끔 하고 있다. 외국인을 상대로 하루에 두 번 한식 요리 교실을 진행 중이다. 인사동과 낙원동, 종로 일대의 맛집들과 전통시장을 도보로 탐방하는 프로그램도 진행하고 있다.
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="https://ongofood.com/"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>

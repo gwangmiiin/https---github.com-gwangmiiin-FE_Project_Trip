@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
-import {Link} from 'react-router-dom';
+import ProfilePicture from 'assets/img/아이스링크.png';
 
 export default function ContentPlay4() {
     return (
@@ -40,14 +39,10 @@ export default function ContentPlay4() {
                                 서울 송파구 올림픽로 240 
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                               3호선 안국 6번 출구
+                            <Icon name="keyboard_arrow_right" size="xl" />
+                               3호선 안국 6번 출구 / 1호선 종각 3번 출구
                             </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                               1호선 종각 3번 출구
-                            </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr">웹 사이트로 보기</Link>
-                             </div>
+                            
                         </div>
 
 
@@ -58,15 +53,17 @@ export default function ContentPlay4() {
                                     롯데월드 아이스링크는 잠실 롯데월드 실내에 자리해 있다. 아이스링크 둘레에는 총 850석의 편안한 좌석이 구비되어 있으며 세계 각국의 요리를 맛볼 수 있는 식당가와 전자오락실 등의 다양한 시설이 함께 조성되어 있다. 피겨스케이트, 스피드스케이트의 강습도 진행하고 있다.
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="https://adventure.lotteworld.com/icerink/main/index.do"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>

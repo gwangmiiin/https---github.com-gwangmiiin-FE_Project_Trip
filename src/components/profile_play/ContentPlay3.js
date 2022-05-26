@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
-import {Link} from 'react-router-dom';
+import ProfilePicture from 'assets/img/쌈지길.png';
 
 export default function ContentPlay3() {
     return (
@@ -40,14 +39,10 @@ export default function ContentPlay3() {
                                 서울특별시 종로구 인사동길 44, 지하 1층 (관훈동)  
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                               3호선 안국 6번 출구
+                            <Icon name="keyboard_arrow_right" size="xl" />
+                               3호선 안국 6번 출구 / 1호선 종각 3번 출구
                             </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                               1호선 종각 3번 출구
-                            </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr">웹 사이트로 보기</Link>
-                             </div>
+                           
                         </div>
 
 
@@ -58,15 +53,17 @@ export default function ContentPlay3() {
                                     쌈지길 체험공방에서는 향연·김유국 해학 목공예학교·세라위크·글라스본 등의 체험프로그램을 진행한다. 향연에서는 향초·비누·화장품 등을 만들 수 있다. 김유국 해학 목공예학교에서는 솟대를, 세라위크에서는 핸드페인팅 도자기를, 글라스본에서는 유리병공예를 체험할 수 있다.
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="https://blog.naver.com/ssamzigil"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>

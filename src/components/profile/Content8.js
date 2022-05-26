@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
-import {Link} from 'react-router-dom';
+import ProfilePicture from 'assets/img/리움미술관.png';
 
 export default function Content8() {
     return (
@@ -40,11 +39,10 @@ export default function Content8() {
                                 서울 용산구 이태원로55길 60-16 (한남동) 
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
+                            <Icon name="keyboard_arrow_right" size="xl" />  
                                 6호선 한강진역 1번 출구 도보 10분
                             </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
-                             </div>
+                            
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -54,15 +52,17 @@ export default function Content8() {
                                         미술관 속 작은 정원 : MUSEUM 2의 지하에는 비밀의 화원이 있다. 전시장 유리창 밖으로 보이는 선큰 가든(Sunken Garden)과 개비온 월(Gabion Wall)이다. 개비온 월은 벽면 기초 공사 때 나온 암반석을 쪼개 철제 프레임에 담아 쌓아 올린 작품이다. 예술과 건축 그리고 숨 쉬는 자연, 삼박자를 고루 갖추고 있다.
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="http://www.leeum.org/"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>

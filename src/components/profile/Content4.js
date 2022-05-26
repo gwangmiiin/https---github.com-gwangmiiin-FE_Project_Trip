@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
-import {Link} from 'react-router-dom';
+import ProfilePicture from 'assets/img/롯데월드타워.png';
 
 export default function Content4() {
     return (
@@ -40,15 +39,10 @@ export default function Content4() {
                                 서울 송파구 올림픽로 300 (신천동)   
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                2호선 잠실역 2번 출구 도보 5분
-                                </div>
-                                
-                    <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                    8호선 잠실역 11번 출구 도보 5분
+                            <Icon name="keyboard_arrow_right" size="xl" />   
+                                2호선 잠실역 2번 출구 도보 5분 / 8호선 잠실역 11번 출구 도보 5분
                     </div>
-                    <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                        <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
-                     </div>
+                    
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -67,15 +61,17 @@ export default function Content4() {
 
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="https://www.lwt.co.kr/ko/main/main.do"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>

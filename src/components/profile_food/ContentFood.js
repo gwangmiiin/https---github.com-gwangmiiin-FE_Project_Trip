@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
-import {Link} from 'react-router-dom'
+import ProfilePicture from 'assets/img/통인시장.png';
 
 export default function ContentFood() {
     return (
@@ -35,11 +34,10 @@ export default function ContentFood() {
                                 서울 종로구 자하문로15길 18  
                             </div>
                             <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
+                            <Icon name="keyboard_arrow_right" size="xl" />
                             3호선 경복궁역 2번 출구 → 2번 출구와 3번 출구 사이 도로를 따라 직진
                             </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
-                             </div>
+                           
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -52,15 +50,17 @@ export default function ContentFood() {
                                     통인시장은 상권이 활성화된 곳으로 다른 전통시장의 벤치마킹 사례로 유명하며 특히 통인시장에서 자체 제작한 엽전은 통인시장만의 즐길 거리다. 엽전으로 환전함과 동시에 검은색 플라스틱 식판도 받게 되는데 이때부터 식판을 들고 다니면서 시장 곳곳을 다니며 음식을 먹을 수 있다. 단, 엽전은 가맹점에서만 사용 가능하다. 
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="https://map.naver.com/v5/entry/place/13304131?c=14134262.0285909,4520366.5291815,13,0,0,0,dh&placePath=%2Fhome&entry=plt"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        상세보기
                                         </Button>
                                     </a>
                                 </div>

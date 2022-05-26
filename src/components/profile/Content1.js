@@ -4,7 +4,6 @@ import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
 import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
-import {Link} from 'react-router-dom';
 
 export default function Content1() {
     return (
@@ -36,17 +35,14 @@ export default function Content1() {
                         <div className="text-center my-8">
                             <H3 color="gray">창덕궁</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
-                                <Icon name="place" size="xl" />
+                            <Icon name="place" size="xl" />
                                 서울 종로구 율곡로 99 (와룡동, 창덕궁) 
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Icon name="work" size="xl" />
-                                5호선 종로3가역 6번 출구 도보 10분, 3호선 안국역 3번 출구 도보 5분
+                            <Icon name="keyboard_arrow_right" size="xl" />
+                                5호선 종로3가역 6번 출구 도보 10분 / 3호선 안국역 3번 출구 도보 5분
                             </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                                <Icon name="account_balance" size="xl" />
-                                <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
-                            </div>
+                           
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -65,15 +61,17 @@ export default function Content1() {
                                     ※ 정부 방역지침에 따라 운영 여부 및 사전 예약이 필요할 수 있으니, 사전 확인 후 방문해 주세요.   
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="http://www.cdg.go.kr/default.jsp"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>

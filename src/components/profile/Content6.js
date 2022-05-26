@@ -3,8 +3,7 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
-import {Link} from 'react-router-dom';
+import ProfilePicture from 'assets/img/몽촌역사관.png';
 
 export default function Content6() {
     return (
@@ -40,14 +39,11 @@ export default function Content6() {
                                 서울 송파구 올림픽로 424 (몽촌역사관)  
                             </div>
                             <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                5호선 올림픽공원역 3번 출구
+                            <Icon name="keyboard_arrow_right" size="xl" />
+                                5호선 올림픽공원역 3번 출구 / 
+                                 8호선 몽촌토성역 1번 출구
                             </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                                8호선 몽촌토성역 1번 출구
-                            </div>
-                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
-                                <Link to ="http://www.royalpalace.go.kr"> 웹 사이트로 보기</Link>
-                             </div>
+                            
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
@@ -60,15 +56,17 @@ export default function Content6() {
                                     몽촌토성의 동문 남쪽 성벽 위에는 움집터전시관이 있다. 1988년에 발견된 4개의 움집터와 저장구덩이를 발굴 조사하여 당시의 모습 그대로 전시한 곳이다. 백제의 육각형 움집으로 온돌형태의 화덕시설이 잘 남아있다.
                                     </LeadText>
                                     <a
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                    
+                                    href="https://baekjemuseum.seoul.go.kr/dreamvillage/"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     >
-                                        <Button
-                                            color="lightBlue"
-                                            buttonType="link"
-                                            ripple="dark"
-                                        >
-                                            Show more
+                                    <Button
+                                        color="lightBlue"
+                                        buttonType="link"
+                                        ripple="dark"
+                                    >
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>
