@@ -95,7 +95,7 @@ export default function DefaultNavbar() {
                                             이달의 추천코스
                                         </DropdownItem>
                                     </Link>
-                                    <Link to="/profile_food">
+                                    <Link to="/mbti">
                                         <DropdownItem color="lightBlue">
                                             추천코스 MBTI
                                         </DropdownItem>

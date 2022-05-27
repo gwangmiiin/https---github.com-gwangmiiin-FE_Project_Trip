@@ -2,18 +2,18 @@ import './App.css';
 import Home from './pages/Home';
 import Question from './pages/Question';
 import Result from './pages/Result';
-import {Routes, Route} from 'react-router-dom'
+import { Route, Router} from 'react-router-dom'
 
-function App() {
+function MBTI() {
   return (
     <>
-      <Routes>
+      <Router>
         <Route path='/' element={<Home />} />
         <Route path='/qustion' element={<Question />} />
         <Route path='/result' element={ <Result />} />      
-      </Routes>
+      </Router>
     </>
   );
 }
 
-export default App;
+export default MBTI;
