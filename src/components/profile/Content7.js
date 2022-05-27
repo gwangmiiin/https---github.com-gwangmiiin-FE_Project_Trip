@@ -3,9 +3,9 @@ import Image from '@material-tailwind/react/Image';
 import H3 from '@material-tailwind/react/Heading3';
 import Icon from '@material-tailwind/react/Icon';
 import LeadText from '@material-tailwind/react/LeadText';
-import ProfilePicture from 'assets/img/korea-g5e7d0a7bc_1920.jpg';
+import ProfilePicture from 'assets/img/changgyeonggung-palace-551221_1920.jpg';
 
-export default function ContentFood() {
+export default function Content8() {
     return (
         <>
         <section className="relative py-16 bg-gray-100">
@@ -25,33 +25,35 @@ export default function ContentFood() {
                                     </div>
                                 </div>
                             </div>
+                            {/* <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:self-center flex justify-center mt-10 lg:justify-end lg:mt-0">
+                                <Button color="lightBlue" ripple="light">
+                                    Conntect
+                                </Button>
+                            </div> */}
                         </div>
 
                         <div className="text-center my-8">
-                            <H3 color="gray">통인시장</H3>
+                            <H3 color="gray">리움 미술관</H3>
                             <div className="mt-0 mb-2 text-gray-700 font-medium flex items-center justify-center gap-2">
                                 <Icon name="place" size="xl" />
-                                서울 종로구 자하문로15길 18  
+                                서울 용산구 이태원로55길 60-16 (한남동) 
                             </div>
-                            <div className="mb-2 text-gray-700 flex items-center justify-center gap-2">
-                            <Icon name="keyboard_arrow_right" size="xl" />
-                            3호선 경복궁역 2번 출구 → 2번 출구와 3번 출구 사이 도로를 따라 직진
+                            <div className="mb-2 text-gray-700 mt-10 flex items-center justify-center gap-2">
+                            <Icon name="keyboard_arrow_right" size="xl" />  
+                                6호선 한강진역 1번 출구 도보 10분
                             </div>
-                           
+                            
                         </div>
 
                         <div className="mb-10 py-2 border-t border-gray-200 text-center">
                             <div className="flex flex-wrap justify-center">
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
                                     <LeadText color="blueGray">
-                                    세종마을은 추사 김정희 등 조선시대 예능인들이 모이는 중심지였으며 근대에도 이상 등 문인들이 활동하던 중심지였다. 일제강점기 일본인들을 위해 만들어진 공설시장이 모태이나 6.25이후 인구증가로 시장의 필요성이 높아져 현재처럼 물건을 사고파는 시장의 형태를 갖추게 되었다. 
-                                    </LeadText>
-                                    <LeadText color="blueGray">
-                                    통인시장은 상권이 활성화된 곳으로 다른 전통시장의 벤치마킹 사례로 유명하며 특히 통인시장에서 자체 제작한 엽전은 통인시장만의 즐길 거리다. 엽전으로 환전함과 동시에 검은색 플라스틱 식판도 받게 되는데 이때부터 식판을 들고 다니면서 시장 곳곳을 다니며 음식을 먹을 수 있다. 단, 엽전은 가맹점에서만 사용 가능하다. 
+                                        미술관 속 작은 정원 : MUSEUM 2의 지하에는 비밀의 화원이 있다. 전시장 유리창 밖으로 보이는 선큰 가든(Sunken Garden)과 개비온 월(Gabion Wall)이다. 개비온 월은 벽면 기초 공사 때 나온 암반석을 쪼개 철제 프레임에 담아 쌓아 올린 작품이다. 예술과 건축 그리고 숨 쉬는 자연, 삼박자를 고루 갖추고 있다.
                                     </LeadText>
                                     <a
                                     
-                                    href="https://map.naver.com/v5/entry/place/13304131?c=14134262.0285909,4520366.5291815,13,0,0,0,dh&placePath=%2Fhome&entry=plt"
+                                    href="http://www.leeum.org/"
                                     target="_blank"
                                     rel="noreferrer"
                                     >
@@ -60,7 +62,7 @@ export default function ContentFood() {
                                         buttonType="link"
                                         ripple="dark"
                                     >
-                                        상세보기
+                                        웹 사이트로 보기
                                         </Button>
                                     </a>
                                 </div>
