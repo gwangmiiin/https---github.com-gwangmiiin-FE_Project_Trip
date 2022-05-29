@@ -2,6 +2,7 @@ import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
 import ContentRecoCourse from 'components/reco_course/ContentRecoCourse';
+import ContentRecoCourse2 from 'components/reco_course/ContentRecoCourse';
 
 export default function RecoCourse() {
     return (
@@ -12,6 +13,7 @@ export default function RecoCourse() {
             <main>
                 <Header />
                 <ContentRecoCourse />
+                <ContentRecoCourse2 />
             </main>
             <DefaultFooter />
         </>
