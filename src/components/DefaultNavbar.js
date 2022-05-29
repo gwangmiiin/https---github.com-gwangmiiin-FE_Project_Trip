@@ -92,10 +92,10 @@ export default function DefaultNavbar() {
                                 >
                                     <Link to="/recoCourse">
                                         <DropdownItem color="lightBlue">
-                                            이달의 추천코스
+                                            다양한 여행코스
                                         </DropdownItem>
                                     </Link>
-                                    <Link to="/profile_food">
+                                    <Link to="/mbti">
                                         <DropdownItem color="lightBlue">
                                             추천코스 MBTI
                                         </DropdownItem>

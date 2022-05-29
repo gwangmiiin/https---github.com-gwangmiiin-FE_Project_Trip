@@ -10,7 +10,7 @@ import Content5 from 'components/profile/Content5';
 import Content6 from 'components/profile/Content6';
 import Content7 from 'components/profile/Content7';
 import Content8 from 'components/profile/Content8';
-import HeaderTop from 'components/profile/HeaderTop';
+//import HeaderTop from 'components/profile/HeaderTop';
 
 export default function Profile() {
     return (
@@ -19,7 +19,7 @@ export default function Profile() {
                 <DefaultNavbar />
             </div>
             <main>
-                <HeaderTop />
+                {/* <HeaderTop /> */}
                 <Header />
                 <Content />
                 <Header />

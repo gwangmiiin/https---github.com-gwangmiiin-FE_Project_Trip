@@ -1,10 +1,9 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
-import WorkingSection from 'components/reco_course/WorkingSection';
-import WorkingSection2 from 'components/reco_course/WorkingSection2';
+import Content from 'components/profile/Content';
 
-export default function RecoCourse() {
+export default function Profile() {
     return (
         <>
             <div className="absolute w-full z-20">
@@ -12,8 +11,7 @@ export default function RecoCourse() {
             </div>
             <main>
                 <Header />
-                <WorkingSection />
-                <WorkingSection2 /> 
+                <Content />
             </main>
             <DefaultFooter />
         </>
