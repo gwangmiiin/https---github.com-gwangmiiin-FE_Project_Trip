@@ -132,6 +132,11 @@ export default function DefaultNavbar() {
                             </div>
                             </>
                             
+                            <div className="text-white">
+                                <Link to="/login">
+                                    &nbsp;Login
+                                </Link>
+                            </div>
 
                             <NavLink
                                 href="https://github.com/gwangmiiin/FE_Project_Trip"

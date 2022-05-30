@@ -6,7 +6,6 @@ import Register from 'pages/Register';
 import ProfileFood from 'pages/ProfileFood';
 import ProfilePlay from 'pages/ProfilePlay';
 import RecoCourse from 'pages/RecoCourse';
-import MBTI from 'pages/\bmbti/src_mbti/MBTI';
 import Course1 from 'components/reco_course/courses/Course1';
 import Course2 from 'components/reco_course/courses/Course2';
 import Course3 from 'components/reco_course/courses/Course3';
@@ -32,7 +31,6 @@ function App() {
             <Route path="/recoCourse" element={<RecoCourse />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/mbti" element={<MBTI />} />
             <Route path='/course1' element={<Course1/>} />
             <Route path='/course2' element={<Course2/>} />
             <Route path='/course3' element={<Course3/>} />
