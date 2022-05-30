@@ -1,9 +1,11 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
-import Content from 'components/profile/Content';
+import Image from '@material-tailwind/react/Image';
+import ProfilePicture from 'assets/img/기본여행자코스-001.png';
 
-export default function Profile() {
+
+export default function Course1() {
     return (
         <>
             <div className="absolute w-full z-20">
@@ -11,7 +13,12 @@ export default function Profile() {
             </div>
             <main>
                 <Header />
-                <Content />
+                     <Image
+                        src={ProfilePicture}
+                        alt="Profile picture"
+                        raised
+                    />
+
             </main>
             <DefaultFooter />
         </>
