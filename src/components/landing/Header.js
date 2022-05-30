@@ -8,10 +8,10 @@ export default function Header() {
             <div className="container max-w-8xl relative mx-auto">
                 <div className="items-center flex flex-wrap">
                     <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                        <H2 color="white">여행지 추천 사이트</H2>
+                        <H2 color="white">Look around Seoul</H2>
                         <div className="text-gray-200">
                             <LeadText color="gray-200">
-                                서울의 여행지를 추천해주는 사이트 입니다!
+                                서울을 구경하세요.
                             </LeadText>
                         </div>
                     </div>

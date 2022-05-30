@@ -6,6 +6,9 @@ import Register from 'pages/Register';
 import ProfileFood from 'pages/ProfileFood';
 import ProfilePlay from 'pages/ProfilePlay';
 import RecoCourse from 'pages/RecoCourse';
+import Home from 'pages/Home';
+import Question from 'pages/Question';
+import  Result  from 'pages/Result';
 import Course1 from 'components/reco_course/courses/Course1';
 import Course2 from 'components/reco_course/courses/Course2';
 import Course3 from 'components/reco_course/courses/Course3';
@@ -21,6 +24,7 @@ import 'assets/styles/tailwind.css';
 import 'assets/styles/bgpic.css'
 
 
+
 function App() {
     return (
         <Routes>
@@ -31,6 +35,9 @@ function App() {
             <Route path="/recoCourse" element={<RecoCourse />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path='/home' element={<Home/>} />
+            <Route path='/qustion' element={<Question/>} />
+            <Route path='/result' element={<Result/>} />
             <Route path='/course1' element={<Course1/>} />
             <Route path='/course2' element={<Course2/>} />
             <Route path='/course3' element={<Course3/>} />

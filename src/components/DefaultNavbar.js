@@ -95,7 +95,7 @@ export default function DefaultNavbar() {
                                             이달의 추천코스
                                         </DropdownItem>
                                     </Link>
-                                    <Link to="/mbti">
+                                    <Link to="/home">
                                         <DropdownItem color="lightBlue">
                                             추천코스 MBTI
                                         </DropdownItem>
@@ -130,13 +130,37 @@ export default function DefaultNavbar() {
                                     </Link>
                                 </Dropdown>
                             </div>
+                            <div className="text-white">
+                                <Dropdown color="transparent" size="sm" buttonType="link"
+                                    buttonText={
+                                        <div className="py-2.5 font-medium flex items-center">
+                                            <Icon
+                                                name="view_carousel"
+                                                size="2xl"
+                                                color="white"
+                                            />
+                                            <span className="ml-2">
+                                                로그인
+                                            </span>
+                                        </div>
+                                    }
+                                    ripple="light"
+                                >
+                                    <Link to="/login">
+                                        <DropdownItem color="lightBlue">
+                                            로그인 
+                                        </DropdownItem>
+                                    </Link>
+                                    <Link to="/register">
+                                        <DropdownItem color="lightBlue">
+                                            회원가입
+                                        </DropdownItem>
+                                    </Link>
+                                </Dropdown>
+                            </div>
                             </>
                             
-                            <div className="text-white">
-                                <Link to="/login">
-                                    &nbsp;Login
-                                </Link>
-                            </div>
+                            
 
                             <NavLink
                                 href="https://github.com/gwangmiiin/FE_Project_Trip"
