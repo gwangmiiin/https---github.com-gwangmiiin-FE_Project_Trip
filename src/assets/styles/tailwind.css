@@ -647,9 +647,6 @@ video {
 .w-80{
 	width: 20rem;
 }
-.w-40{
-	width: 10rem;
-}
 .min-w-0{
 	min-width: 0px;
 }
@@ -780,6 +777,10 @@ video {
 .py-16{
 	padding-top: 4rem;
 	padding-bottom: 4rem;
+}
+.px-8{
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 .pt-8{
 	padding-top: 2rem;

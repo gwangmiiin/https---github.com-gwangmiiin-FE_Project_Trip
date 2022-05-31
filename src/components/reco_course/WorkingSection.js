@@ -2,19 +2,24 @@ import LeadText from '@material-tailwind/react/LeadText';
 import StatusCard1 from 'components/landing/StatusCard1';
 import StatusCard2 from 'components/landing/StatusCard2';
 import StatusCard3 from 'components/landing/StatusCard3';
+import H6 from '@material-tailwind/react/Heading6';
 
 export default function WorkingSection() {
     return (
         <section className="pb-20 bg-gray-100 -mt-32">
             <div className="container max-w-7xl mx-auto px-4">
-                <div className="flex flex-wrap relative z-50"> 
-                    <StatusCard1 title="기본 여행자 코스">
+                <div className="flex flex-wrap relative z-50">
+                                
+                    <StatusCard1>
+                        <H6>기본 여행자 코스</H6>
                        서울을 처음 방문하는 여행객들을 위한 안내.
                     </StatusCard1>
-                    <StatusCard2 title="서울 정보습득 코스" >
+                    <StatusCard2>
+                        <H6>서울 정보습득 코스</H6>
                        서울의 역사와 문화를 느껴보기!
                     </StatusCard2>
-                    <StatusCard3 title="서울 로컬라이프 코스 ">
+                    <StatusCard3>
+                        <H6>서울 로컬라이프 코스</H6>
                         서울 시민들이 즐겨찾는 여유공간 함께하기!
                     </StatusCard3>
                 </div>
