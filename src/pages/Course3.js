@@ -1,9 +1,8 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
-import ContentRecoCourse from 'components/reco_course/ContentRecoCourse';
 
-export default function RecoCourse() {
+export default function Course3() {
     return (
         <>
             <div className="absolute w-full z-20">
@@ -11,7 +10,6 @@ export default function RecoCourse() {
             </div>
             <main>
                 <Header />
-                <ContentRecoCourse />
             </main>
             <DefaultFooter />
         </>

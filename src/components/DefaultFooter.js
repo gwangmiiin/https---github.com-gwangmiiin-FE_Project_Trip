@@ -12,7 +12,7 @@ export default function DefaultFooter() {
                             <H5 color="gray">서울시 관광</H5>
                             <div className="-mt-4">
                                 <LeadText color="blueGray">
-                                    어렵지 않게 서울의 여러가지 볼거리, 먹거리 등을 알 수 있습니다!
+                                    어렵지 않게 서울의 여러가지 볼거리, 먹거리, 놀거리를 알 수 있습니다!
                                 </LeadText>
                             </div>
                             {/* <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">

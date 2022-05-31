@@ -6,35 +6,37 @@ import H4 from '@material-tailwind/react/Heading4';
 import H6 from '@material-tailwind/react/Heading6';
 import LeadText from '@material-tailwind/react/LeadText';
 import Paragraph from '@material-tailwind/react/Paragraph';
-import StatusCard from 'components/landing/StatusCard';
 import Teamwork from 'assets/img/teamwork.jpeg';
+import StatusCard1 from './StatusCard1';
+import StatusCard2 from './StatusCard2';
+import StatusCard3 from './StatusCard3';
 
 export default function WorkingSection() {
     return (
         <section className="pb-20 bg-gray-100 -mt-32">
             <div className="container max-w-7xl mx-auto px-4">
                 <div className="flex flex-wrap relative z-50">
-                    <StatusCard 
+                    <StatusCard1
                         color="red" 
                         icon="brightness_1" 
                         title="볼거리"
                     >
                         볼거리 소개
-                    </StatusCard>
-                    <StatusCard
+                    </StatusCard1>
+                    <StatusCard2
                         color="lightBlue"
                         icon="brightness_1"
                         title="먹거리"
                     >
                         먹거리 소개
-                    </StatusCard>
-                    <StatusCard
+                    </StatusCard2>
+                    <StatusCard3
                         color="teal"
                         icon="brightness_1"
                         title="놀거리"
                     >
                         놀거리 소개
-                    </StatusCard>
+                    </StatusCard3>
                 </div>
 
                 <div className="flex flex-wrap items-center mt-32">

@@ -1,9 +1,11 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
-import ContentRecoCourse from 'components/reco_course/ContentRecoCourse';
+import Image from '@material-tailwind/react/Image';
+import ProfilePicture from 'assets/img/기본여행자코스-001.png';
 
-export default function RecoCourse() {
+
+export default function Course1() {
     return (
         <>
             <div className="absolute w-full z-20">
@@ -11,7 +13,12 @@ export default function RecoCourse() {
             </div>
             <main>
                 <Header />
-                <ContentRecoCourse />
+                     <Image
+                        src={ProfilePicture}
+                        alt="Profile picture"
+                        raised
+                    />
+
             </main>
             <DefaultFooter />
         </>
