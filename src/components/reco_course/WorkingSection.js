@@ -12,15 +12,18 @@ export default function WorkingSection() {
                                 
                     <StatusCard1>
                         <H6>기본 여행자 코스</H6>
-                       서울을 처음 방문하는 여행객들을 위한 안내.
+                       서울을 처음 방문하는 <br />
+                       여행객들을 위한 안내.
                     </StatusCard1>
                     <StatusCard2>
-                        <H6>서울 정보습득 코스</H6>
-                       서울의 역사와 문화를 느껴보기!
+                        <H6>서울 로컬라이프 코스</H6>
+                       서울 시민들이 즐겨찾는 <br />
+                       여유공간 함께 즐기기!
                     </StatusCard2>
                     <StatusCard3>
-                        <H6>서울 로컬라이프 코스</H6>
-                        서울 시민들이 즐겨찾는 여유공간 함께하기!
+                        <H6>서울 미식가 코스</H6>
+                        서울에서 맛과 여유를 둘 다 잡으며 <br />
+                        재휴식 하기!
                     </StatusCard3>
                 </div>
             </div>

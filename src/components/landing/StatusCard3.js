@@ -4,7 +4,7 @@ import H6 from '@material-tailwind/react/Heading6';
 import Paragraph from '@material-tailwind/react/Paragraph';
 import { NavLink } from 'react-router-dom';
 import Image from '@material-tailwind/react/Image';
-import ProfilePicture from 'assets/img/서울로컬라이프코스.png';
+import ProfilePicture from 'assets/img/서울미식가코스.png';
 
 export default function StatusCard3({title, children }) {
     return (

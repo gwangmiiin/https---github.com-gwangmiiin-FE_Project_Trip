@@ -27,7 +27,7 @@ export default function Recocourse1() {
                                 <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
 
                                     <H2 color="blue">
-                                        N서울타워와 남산 케이블카 / 남산공원
+                                        ◈ N서울타워와 남산 케이블카 / 남산공원
                                     </H2>
 
                                     <LeadText color="bluegray">
@@ -48,7 +48,7 @@ export default function Recocourse1() {
                                     </div>
 
                                     <H2 color="blue">
-                                       서울로 7017
+                                    ◈ 서울로 7017
                                     </H2>
 
                                     <LeadText color="bluegray">
